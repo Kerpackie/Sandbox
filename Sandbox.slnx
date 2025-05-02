@@ -3,5 +3,7 @@
   <Folder Name="/MinimalApis/1.Introduction/">
     <Project Path="MinimalApis\1.Introduction\WeatherForecast\WeatherForecast.csproj" Type="Classic C#" />
   </Folder>
-  <Folder Name="/MinimalApis/2.GettingStarted/" />
+  <Folder Name="/MinimalApis/2.GettingStarted/">
+    <Project Path="MinimalApis\2.GettingStarted\Minimal.Api\Minimal.Api.csproj" Type="Classic C#" />
+  </Folder>
 </Solution>
