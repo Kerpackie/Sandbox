@@ -1,7 +1,34 @@
 @MinimalAPI_HostAddress = http://localhost:5025
 
+# Example GET endpoint
 GET {{MinimalAPI_HostAddress}}/get-example/
 Accept: application/json
 ###
 
+# Example POST endpoint
 POST {{MinimalAPI_HostAddress}}/post-example/
+Content-Type: application/json
+
+{
+}
+###
+
+# GET request that returns a plain 200 OK response
+GET {{MinimalAPI_HostAddress}}/ok-result
+Accept: application/json
+###
+
+# GET request that returns a 200 OK response with a JSON object
+GET {{MinimalAPI_HostAddress}}/ok-object
+Accept: application/json
+###
+
+# GET request that returns a 404 Not Found response
+GET {{MinimalAPI_HostAddress}}/not-found
+Accept: application/json
+###
+
+# GET request that runs async w/ 2 second delay.
+GET {{MinimalAPI_HostAddress}}/slow-request
+Accept: application/json
+###
