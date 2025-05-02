@@ -1,6 +1,7 @@
 ﻿<Solution>
   <Folder Name="/MinimalApis/" />
-  <Folder Name="/MinimalApis/Introduction/">
-    <Project Path="MinimalApis\Introduction\WeatherForecast\WeatherForecast.csproj" Type="Classic C#" />
+  <Folder Name="/MinimalApis/1.Introduction/">
+    <Project Path="MinimalApis\1.Introduction\WeatherForecast\WeatherForecast.csproj" Type="Classic C#" />
   </Folder>
+  <Folder Name="/MinimalApis/2.GettingStarted/" />
 </Solution>
